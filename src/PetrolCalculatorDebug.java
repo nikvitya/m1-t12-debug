@@ -7,10 +7,13 @@ public class PetrolCalculatorDebug {
 
     public void calculate() {
         Scanner scanner = new Scanner(System.in);
+
         System.out.print("Введите тип топлива: 1 - АИ-92, 2 - АИ-95, 3 - АИ-100 => ");
         int petrolType = scanner.nextInt();
+
         System.out.print("Введите количество литров => ");
         double volume = scanner.nextDouble();
+
         System.out.print("Введите скидку в диапазоне 0..100 => ");
         double discount = scanner.nextDouble() / 100;
 
